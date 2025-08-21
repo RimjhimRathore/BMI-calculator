@@ -11,6 +11,13 @@
         <h1>BMI Calculator</h1>
         <form>
         <p><label>Height in cm :</label> <input type="text" id="height"/></p>
+        <div class="converter">
+  <label for="feet">Height in Feet :</label>
+  <input type="number" id="feet" step="any">
+  <button onclick="convertToCm()">Convert to CM</button>
+  <p id="cmResult"></p>
+</div>
+
         <p><label>weight in kg :</label> <input type="text" id="weight"/></p>
         <button>Calculate</button>
         <div class="result"></div>

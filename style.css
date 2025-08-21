@@ -43,6 +43,25 @@ body {
 }
 
 
+.converter {
+  margin: 20px 0;
+  padding: 10px;
+  background: #f3faff;
+  border-radius: 10px;
+}
+.converter input, .converter button {
+  margin-top: 5px;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+.converter button {
+  background-color: #4fd1c5;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
 form p {
   margin: 15px 0;
   text-align: left;
